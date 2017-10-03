@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Match Centre</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No Internet connection.</string>
+
+    <!-- Text to display in the list when there are no data [CHAR LIMIT=NONE] -->
+    <string name="no_commentary">No Match Commentary found.</string>
+    <string name="no_stats">No Match Stats found.</string>
+    <string name="no_match">No Match found.</string>
+
+    <!-- Match Commentary Activity Title [CHAR LIMIT=NONE] -->
+    <string name="match_commentary_title">Match Commentary</string>
+
+    <!-- Match Stats Activity Title [CHAR LIMIT=NONE] -->
+    <string name="match_stats_title">Match Stats</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Match Centre Settings</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Label for List size option -->
+    <string name="listSize">"List Size (1"-"200)"</string>
+    <string name="listSizeDefault">10</string>
+
+    <!-- Label for List color option -->
+    <string name="key_background_color">backgroundColor</string>
+    <string name="background_color">Background Color</string>
+
+    <!-- MainActivity texts -->
+    <string name="attendance">Att:</string>
+    <string name="referee">Referee:</string>
+    <string name="vs">Vs</string>
+    <string name="manager">Manager</string>
+    <string name="formation">Form.</string>
+
+    <!-- MatchCommentActivity texts -->
+    <string name="time_label">Time:</string>
+    <string name="minute_label">min</string>
+    <string name="second_label">sec</string>
+
+    <!-- MatchStatActivity texts -->
+    <string name="percent">%</string>
+
+</resources>

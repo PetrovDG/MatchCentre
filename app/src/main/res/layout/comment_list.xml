@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout_vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        style="@style/commentTitles"
+        android:layout_gravity="center_horizontal"
+        tools:text="heading" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/commentary"
+        tools:text="Long placeholder title that should wrap to the text" />
+
+    <LinearLayout
+
+        style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/time_label"
+            style="@style/commentText"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:text="@string/time_label" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/commentText"
+            tools:text="time" />
+
+        <TextView
+            android:id="@+id/minute"
+            style="@style/commentText"
+            android:paddingLeft="@dimen/double_padding"
+            android:paddingStart="@dimen/double_padding"
+            tools:text="minute" />
+
+        <TextView
+            android:id="@+id/minute_label"
+            style="@style/commentText"
+            android:paddingLeft="@dimen/margin"
+            android:paddingStart="@dimen/margin"
+            android:text="@string/minute_label" />
+
+        <TextView
+            android:id="@+id/second"
+            style="@style/commentText"
+            android:paddingLeft="@dimen/padding"
+            android:paddingStart="@dimen/padding"
+            tools:text="second" />
+
+        <TextView
+            android:id="@+id/second_label"
+            style="@style/commentText"
+            android:paddingEnd="@dimen/margin"
+            android:paddingRight="@dimen/margin"
+            android:paddingStart="@dimen/margin"
+            android:text="@string/second_label" />
+
+    </LinearLayout>
+
+</LinearLayout>

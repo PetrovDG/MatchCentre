@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- background color names array -->
+    <string-array name="background_color_names_array">
+        <item>Sky Blue</item>
+        <!--item>#81D4FA</item-->
+
+        <item>Yellow</item>
+        <!--item>#FFF9C4</item-->
+
+        <item>Purple</item>
+        <!--item>#D1C4E9</item-->
+
+        <item>Green</item>
+        <!--item>#A5D6A7</item-->
+
+        <item>Amber</item>
+        <!--item>#FFE082</item-->
+
+        <item>Pink</item>
+        <!--item>#F8BBD0</item-->
+
+        <item>Lime</item>
+        <!--item>#E6EE9C</item-->
+
+        <item>Orange</item>
+        <!--item>#FFCC80</item-->
+
+        <item>Light Grey</item>
+        <!--item>#E0E0E0</item-->
+
+        <item>White</item>
+        <!--item>#FFFFFF</item-->
+
+
+    </string-array>
+
+    <!-- background color values array -->
+    <string-array name="background_color_values_array">
+        <!--item>Sky Blue</item-->
+        <item>#BBDEFB</item>
+
+        <!--item>Yellow</item-->
+        <item>#FFF9C4</item>
+
+        <!--item>Purple</item-->
+        <item>#D1C4E9</item>
+
+        <!--item>Green</item-->
+        <item>#A5D6A7</item>
+
+        <!--item>Amber</item-->
+        <item>#FFE082</item>
+
+        <!--item>Pink</item-->
+        <item>#F8BBD0</item>
+
+        <!--item>Lime</item-->
+        <item>#E6EE9C</item>
+
+        <!--item>Orange</item-->
+        <item>#FFCC80</item>
+
+        <!--item>Light Grey</item-->
+        <item>#E0E0E0</item>
+
+        <!--item>White</item-->
+        <item>#FFFFFF</item>
+
+    </string-array>
+</resources>

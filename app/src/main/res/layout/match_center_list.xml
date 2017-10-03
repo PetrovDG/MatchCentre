@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_layout"
+    tools:context=".MatchCentreActivity">
+
+    <LinearLayout style="@style/main_linear_layout">
+
+        <TextView
+            android:id="@+id/competition"
+            style="@style/text_view"
+            android:layout_gravity="center_horizontal"
+            tools:text="Premier League" />
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                android:id="@+id/venue"
+                style="@style/text_view_medium"
+                tools:text="Vitality Stadium" />
+
+            <TextView
+                android:id="@+id/attendance_label"
+                style="@style/text_view_medium"
+                android:text="@string/attendance" />
+
+            <TextView
+                android:id="@+id/attendance"
+                style="@style/text_view_medium"
+                tools:text="11225" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timestamp"
+            style="@style/text_view_medium"
+            tools:text="Date and Time" />
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                android:id="@+id/referee_label"
+                style="@style/text_view_medium"
+                android:text="@string/referee" />
+
+            <TextView
+                android:id="@+id/referee"
+                style="@style/text_view_medium"
+                tools:text="Kevin Friend" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_layout"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                style="@style/linear_layout_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/home_name"
+                    style="@style/text_view_medium"
+                    android:drawableBottom="@drawable/bournemouth_logo"
+                    android:drawablePadding="@dimen/padding"
+                    android:gravity="center_horizontal"
+                    tools:text="home_name" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/vs"
+                style="@style/text_view"
+                android:layout_gravity="center_vertical"
+                android:text="@string/vs" />
+
+            <LinearLayout
+                style="@style/linear_layout_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/away_name"
+                    style="@style/text_view_medium"
+                    android:drawableBottom="@drawable/everton_logo"
+                    android:drawablePadding="@dimen/padding"
+                    android:gravity="center_horizontal"
+                    tools:text="away_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_layout"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                style="@style/linear_layout_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/home_manager"
+                    style="@style/text_view_medium"
+                    tools:text="Eddie Howe" />
+
+                <TextView
+                    android:id="@+id/home_formation"
+                    style="@style/text_view_medium"
+                    tools:text="4411" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/home_manager_label"
+                    style="@style/text_view_medium"
+                    android:text="@string/manager" />
+
+                <TextView
+                    android:id="@+id/home_formation_label"
+                    style="@style/text_view_medium"
+                    android:text="@string/formation" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/away_manager"
+                    style="@style/text_view_medium"
+                    tools:text="Roberto Martinez" />
+
+                <TextView
+                    android:id="@+id/away_formation"
+                    style="@style/text_view_medium"
+                    tools:text="4231" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/horizontal_line" />
+
+        <ImageView
+            android:id="@+id/match_commentary"
+            style="@style/image"
+            android:layout_gravity="center_horizontal"
+            android:onClick="match_commentary"
+            android:src="@drawable/match_commentary"
+            tools:ignore="contentDescription" />
+
+        <ImageView
+            android:id="@+id/match_stats"
+            style="@style/image"
+            android:layout_gravity="center_horizontal"
+            android:onClick="match_stats"
+            android:src="@drawable/match_stats"
+            tools:ignore="contentDescription" />
+
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+</RelativeLayout>

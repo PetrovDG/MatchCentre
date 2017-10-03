@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout_vertical">
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_name"
+            style="@style/text_view"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            tools:text="Bournemouth" />
+
+        <TextView
+            android:id="@+id/away_name"
+            style="@style/text_view"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            tools:text="Everton" />
+
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_score"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+
+        <ImageView
+            android:layout_width="@dimen/image_stats"
+            android:layout_height="@dimen/image_stats"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/goal"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_score"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_possession"
+            style="@style/text_view_poss"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/possession_padding"
+            android:layout_marginStart="@dimen/possession_padding"
+            tools:text="3" />
+
+        <TextView
+            android:id="@+id/home_possession_label"
+            style="@style/text_view_poss"
+            android:layout_gravity="center"
+            android:labelFor="@id/home_possession"
+            android:text="@string/percent" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_stats"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/kick"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_possession"
+            style="@style/text_view_poss"
+            android:layout_gravity="center"
+            tools:text="3" />
+
+        <TextView
+            android:id="@+id/away_possession_label"
+            style="@style/text_view_poss"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/possession_padding"
+            android:layout_marginRight="@dimen/possession_padding"
+            android:labelFor="@id/away_possession"
+            android:text="@string/percent" />
+
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_shotsOnTarget"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+
+        <ImageView
+            android:layout_width="@dimen/image_stats"
+            android:layout_height="@dimen/image_stats"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/goalkeeper"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_shotsOnTarget"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_corners"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+
+        <ImageView
+            android:layout_width="@dimen/image_stats"
+            android:layout_height="@dimen/image_stats"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/corner"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_corners"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_fouls"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+
+        <ImageView
+            android:layout_width="@dimen/image_stats"
+            android:layout_height="@dimen/image_stats"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/foul"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_fouls"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_yellowCards"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+
+        <ImageView
+            android:layout_width="@dimen/image_stats"
+            android:layout_height="@dimen/image_stats"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/yellowcard"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_yellowCards"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            android:id="@+id/home_redCards"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+
+        <ImageView
+            android:layout_width="@dimen/image_stats"
+            android:layout_height="@dimen/image_stats"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/redcard"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:id="@+id/away_redCards"
+            style="@style/text_view"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="3" />
+    </LinearLayout>
+
+    <View style="@style/horizontal_line" />
+</LinearLayout>

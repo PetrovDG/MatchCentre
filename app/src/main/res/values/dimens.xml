@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="possession_padding">40dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="double_padding">16dp</dimen>
+    <dimen name="margin">4dp</dimen>
+    <dimen name="half_margin">2dp</dimen>
+    <dimen name="textSections">16sp</dimen>
+    <dimen name="textComments">18sp</dimen>
+    <dimen name="textTitles">20sp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="image_width">300dp</dimen>
+    <dimen name="image_stats">60dp</dimen>
+</resources>

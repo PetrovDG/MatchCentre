@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <EditTextPreference
+        android:defaultValue="@string/listSizeDefault"
+        android:inputType="number"
+        android:key="@string/listSize"
+        android:selectAllOnFocus="true"
+        android:title="@string/listSize"/>
+
+    <ListPreference
+        android:defaultValue="@color/background"
+        android:entries="@array/background_color_names_array"
+        android:entryValues="@array/background_color_values_array"
+        android:key="@string/key_background_color"
+        android:summary="Choose a background color"
+        android:title="@string/background_color"/>
+
+</PreferenceScreen>
